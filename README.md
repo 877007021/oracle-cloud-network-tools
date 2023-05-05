@@ -90,11 +90,12 @@ tenancy=xxx
 region=xxx
 key_file= ~/.oci/xxx.pem
 private_ip_id=xxx
-vnic_id=xxx
 cloudflare_api_key=xxx
 cloudflare_zone_id=xxx
 cloudflare_dns_names=a.xxx.com b.xxx.com
 ```
+
+private_ip_id：调用脚本中的 get_latest_public_ip 可以获取
 
 key_file 请更改为自己实际的的证书文件地址，就是刚刚生成 oci 配置文件时下载的文件
 
