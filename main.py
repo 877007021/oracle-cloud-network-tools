@@ -1,6 +1,3 @@
-import json
-import sys
-
 import oci
 import subprocess
 import time
